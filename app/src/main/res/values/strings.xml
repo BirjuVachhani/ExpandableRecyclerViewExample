@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ExpandableRecyclerViewExample</string>
+
+    <string-array name="wonders">
+        <item>Great Wall of China</item>
+        <item>Petra</item>
+        <item>Christ the Redeemer</item>
+        <item>Machu Picchu</item>
+        <item>Chichen Itza</item>
+        <item>Colosseum</item>
+        <item>Taj Mahal</item>
+        <item>Great Pyramid of Giza</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>When Emperor Qin Shi Huang ordered construction of the Great Wall around 221 B.C., the labor force that built the wall was made up largely of soldiers and convicts. It is said that as many as 400,000 people died during the wall's construction; many of these workers were buried within the wall itself.</item>
+        <item>Petra is the most popular attractions in Jordan for tourists and also one of the world's most famous historical archeological sites. It is an ancient city located between the Dead Sea and the Red Sea. The city is half man-made and half carved into the rock and had a water conduit system that is also one of the reasons the city is famous. It is often referred to as the Rose City because of the rose color of the rock from which the city was carved.</item>
+        <item>Christ the Redeemer is a statue in Rio de Janeiro, Brazil that was built as a symbol of Brazilian Christianity. In 1850, the idea of building a religious monument was first suggested by a Catholic Priest. It wasn't until 1920 when a group petitioned for support to build a landmark statue that it became a reality. The design was chosen from several ideas and construction began in the 1920s, taking nine years to finish.</item>
+        <item>Machu Picchu is an Inca site in Peru that is thought to have been built as an estate for Pachacuti, an Incan emperor. It was built in the 15th century, approximately around 1450. It was abandoned as a place for Inca rulers in about 1572. It was discovered by the outside world in 1911and has since become a tourist attraction. By 1976 at least 30% of the site had been restored and those restoration efforts still continue today.</item>
+        <item>Chichen Itza is the second most popular site for visitors to Mexico. It is considered to be one of the Seven Wonders of the New World. Located on the Yucatan Peninsula, Chichen Itza was a large city built by the Maya people. It thrived from about 600 AD., until 1221, when the power in the region shifted to Mayapan. Today it can be visited by tourists and religious pilgrims alike.</item>
+        <item>The Colosseum is an amphitheatre in the center of the city Rome, in Italy. It is also known as the Flavian Amphiteatre. It is the largest amphitheatre in the world and considered to be one of the greatest Roman architecture and engineering works. It was used for a variety of events and could hold 50,000 people. Earthquakes and stone robbers left it in ruins, but part of it still stands today.</item>
+        <item>The Taj Mahal in India was built by a grief-stricken emperor Shah Jahan. His wife Mumtaz Mahal died in 1631 while giving birth to their 14th child. Construction of the Taj Mahal began one year later and it was built to be the final resting place of Mumtaz Mahal. Different types of marble from all over the world were used to build this mausoleum.</item>
+        <item>The Great Pyramid of Giza was built as a tomb for the Egyptian pharaoh Khufu. It took approximately 20 years to build and has three burial chambers inside. When it was originally built (in approximately 2550 BC) it was almost 147 meters tall. Today, because of erosion, it is only about 139 meters tall. If you visit Egypt today you can enter the Great Pyramid through the Robbers’ Tunnel.</item>
+    </string-array>
+</resources>
