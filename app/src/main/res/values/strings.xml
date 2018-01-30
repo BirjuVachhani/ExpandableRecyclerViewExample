@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ExpandableRecyclerViewExample</string>
+    <string name="app_name">Wonders Of The World</string>
 
     <string-array name="wonders">
         <item>Great Wall of China</item>
