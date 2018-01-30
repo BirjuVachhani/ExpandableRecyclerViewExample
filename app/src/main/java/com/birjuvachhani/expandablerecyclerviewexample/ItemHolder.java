@@ -1,13 +1,5 @@
 package com.birjuvachhani.expandablerecyclerviewexample;
 
-import android.os.Parcel;
-import android.os.Parcelable;
-import android.util.Log;
-
-import com.thoughtbot.expandablerecyclerview.models.ExpandableGroup;
-
-import java.util.List;
-
 /**
  * Created by birju.vachhani on 30/01/18.
  */
@@ -23,7 +15,7 @@ public class ItemHolder {
         this.title = title;
         this.desc = desc;
         ImageId = imageId;
-        this.backgroundColor=backgroundColor;
+        this.backgroundColor = backgroundColor;
     }
 
     public String getTitle() {

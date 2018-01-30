@@ -75,7 +75,6 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
                     if (mdesc.getVisibility() == View.GONE) {
                         mdesc.setVisibility(View.VISIBLE);
                     } else {

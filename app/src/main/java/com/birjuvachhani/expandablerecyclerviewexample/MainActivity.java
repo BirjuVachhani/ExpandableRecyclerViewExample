@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         mlist = new ListGenerator(this).generate();
-        RecyclerAdapter adapter=new RecyclerAdapter(this,mlist);
-        LinearLayoutManager linearLayoutManager=new LinearLayoutManager(this);
+        RecyclerAdapter adapter = new RecyclerAdapter(this, mlist);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(adapter);
 

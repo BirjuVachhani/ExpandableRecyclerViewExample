@@ -3,7 +3,6 @@ package com.birjuvachhani.expandablerecyclerviewexample;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Color;
 import android.os.Build;
 import android.support.v7.graphics.Palette;
 
@@ -31,16 +30,16 @@ public class ListGenerator {
         List<ItemHolder> mlist = new ArrayList<>();
 
         for (int i = 0; i < titles.length && i < desc.length && i < images.length; i++) {
-            Bitmap bitmap= BitmapFactory.decodeResource(context.getResources(),images[i]);
-            int color= Color.parseColor("#2c2c2c");
-            if(Build.VERSION.SDK_INT>=21) {
+            Bitmap bitmap = BitmapFactory.decodeResource(context.getResources(), images[i]);
+            int color = context.getResources().getColor(R.color.default_bg);
+
+            if (Build.VERSION.SDK_INT >= 21) {
                 Palette palette = Palette.from(bitmap).generate();
-                //Palette.Swatch swatch=palette.getVibrantSwatch();
                 color = palette.getDarkVibrantColor(color);
             }
             bitmap.recycle();
-            bitmap=null;
-            ItemHolder itemHolder = new ItemHolder(titles[i], desc[i], images[i],color);
+            bitmap = null;
+            ItemHolder itemHolder = new ItemHolder(titles[i], desc[i], images[i], color);
             mlist.add(itemHolder);
         }
         return mlist;
