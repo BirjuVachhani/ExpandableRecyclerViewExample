@@ -63,6 +63,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
         TextView mdesc;
         Context context;
         LinearLayout container;
+        ImageView arrow;
 
         public RecyclerViewHolder(final Context context, View itemView) {
             super(itemView);
@@ -71,14 +72,18 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.Recycl
             mtitle = (TextView) itemView.findViewById(R.id.tv_title);
             mdesc = (TextView) itemView.findViewById(R.id.tv_desc);
             container = (LinearLayout) itemView.findViewById(R.id.container);
+            arrow=(ImageView)itemView.findViewById(R.id.arrow);
 
-            itemView.setOnClickListener(new View.OnClickListener() {
+            arrow.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     if (mdesc.getVisibility() == View.GONE) {
                         mdesc.setVisibility(View.VISIBLE);
+                        arrow.setImageResource(R.drawable.ic_keyboard_arrow_up_white_36dp);
+
                     } else {
                         mdesc.setVisibility(View.GONE);
+                        arrow.setImageResource(R.drawable.ic_keyboard_arrow_down_white_36dp);
                     }
                 }
             });

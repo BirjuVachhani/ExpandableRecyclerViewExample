@@ -8,7 +8,6 @@
     android:layout_marginLeft="8dp"
     android:layout_marginRight="8dp"
     android:layout_marginTop="8dp"
-    android:clickable="true"
     android:focusable="true"
     android:foreground="?attr/selectableItemBackground">
 
@@ -26,14 +25,29 @@
             android:scaleType="centerCrop"
             tools:src="@tools:sample/avatars" />
 
-        <TextView
-            android:id="@+id/tv_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            android:textColor="@color/default_text_color"
-            android:textSize="24sp"
-            tools:text="@tools:sample/first_names" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:textColor="@color/default_text_color"
+                android:textSize="24sp"
+                tools:text="@tools:sample/first_names" />
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="8dp"
+                android:background="?actionBarItemBackground"
+                android:src="@drawable/ic_keyboard_arrow_down_white_36dp" />
+        </RelativeLayout>
 
         <LinearLayout
             android:id="@+id/child"
