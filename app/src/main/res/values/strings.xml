@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Wonders Of The World</string>
 
-    <string-array name="wonders">
+    <string-array name="titles">
         <item>Great Wall of China</item>
         <item>Petra</item>
         <item>Christ the Redeemer</item>
@@ -12,7 +12,7 @@
         <item>Great Pyramid of Giza</item>
     </string-array>
 
-    <string-array name="description">
+    <string-array name="descriptions">
         <item>When Emperor Qin Shi Huang ordered construction of the Great Wall around 221 B.C., the labor force that built the wall was made up largely of soldiers and convicts. It is said that as many as 400,000 people died during the wall's construction; many of these workers were buried within the wall itself.</item>
         <item>Petra is the most popular attractions in Jordan for tourists and also one of the world's most famous historical archeological sites. It is an ancient city located between the Dead Sea and the Red Sea. The city is half man-made and half carved into the rock and had a water conduit system that is also one of the reasons the city is famous. It is often referred to as the Rose City because of the rose color of the rock from which the city was carved.</item>
         <item>Christ the Redeemer is a statue in Rio de Janeiro, Brazil that was built as a symbol of Brazilian Christianity. In 1850, the idea of building a religious monument was first suggested by a Catholic Priest. It wasn't until 1920 when a group petitioned for support to build a landmark statue that it became a reality. The design was chosen from several ideas and construction began in the 1920s, taking nine years to finish.</item>
