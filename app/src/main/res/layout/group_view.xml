@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="5dp"
-    android:background="?attr/selectableItemBackground"
-    android:clickable="true">
+    android:layout_margin="8dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
 
     <LinearLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:foreground="?attr/selectableItemBackground"
+        android:focusable="true"
+        android:background="#2f2f2f"
         android:orientation="vertical">
 
         <ImageView
@@ -21,11 +27,32 @@
 
         <TextView
             android:id="@+id/tv_title"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:textSize="24sp"
+            android:textColor="#eee"
             tools:text="@tools:sample/first_names" />
+
+        <LinearLayout
+            android:id="@+id/child"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp"
+            android:background="?attr/selectableItemBackground"
+            android:layout_marginRight="8dp">
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#eee"
+            android:visibility="gone"
+            android:layout_marginRight="8dp"
+            tools:text="@tools:sample/lorem/random" />
+        </LinearLayout>
     </LinearLayout>
 
 </android.support.v7.widget.CardView>
